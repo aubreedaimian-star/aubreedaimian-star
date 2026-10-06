@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Aubree — Code, Robots &amp; Creative Interfaces</title>
+  <desc id="desc">A navy and mint editorial banner with a connected geometric path.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e33"/><stop offset="1" stop-color="#172e43"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b6f3df" stroke-opacity=".065"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+  <path d="M64 51H104" stroke="#9ce8cf" stroke-width="3"/>
+  <text x="120" y="57" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3" fill="#9ce8cf">AUBREE / SELECTED WORK</text>
+  <text x="60" y="157" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="700" letter-spacing="-3" fill="#f2f7fa">Hello, I'm Aubree.</text>
+  <text x="64" y="210" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#c8d9e5">Code, Robots &amp; Creative Interfaces</text>
+  <text x="64" y="286" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2" fill="#9ce8cf">MOBILE  /  WEB  /  CONNECTED SYSTEMS</text>
+  <g fill="none" stroke="#9ce8cf" stroke-width="2">
+    <rect x="895" y="65" width="220" height="220" rx="28" stroke-opacity=".2"/>
+    <path d="M935 226V166H1005V111H1080" stroke-dasharray="5 8"/>
+    <circle cx="935" cy="226" r="12" fill="#172e43"/>
+    <rect x="993" y="154" width="24" height="24" rx="5" fill="#9ce8cf"/>
+    <circle cx="1080" cy="111" r="12" fill="#172e43"/>
+    <path d="M1050 211l-12 12 12 12m22-24 12 12-12 12" stroke-opacity=".55"/>
+  </g>
+</svg>

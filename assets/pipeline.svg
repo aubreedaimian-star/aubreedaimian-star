@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="128" viewBox="0 0 1000 128" role="img" aria-labelledby="title">
+  <title id="title">Packets to framing to decoding to semantic checks</title>
+  <rect width="1000" height="128" rx="12" fill="#14273b"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#f0f6fa" text-anchor="middle">
+    <text x="125" y="61">Packets</text><text x="375" y="61">Framing</text><text x="625" y="61">Decode</text><text x="875" y="61">Semantic checks</text>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#9ce8cf" text-anchor="middle">
+    <text x="125" y="88">INPUT</text><text x="375" y="88">BOUNDARIES</text><text x="625" y="88">STRUCTURE</text><text x="875" y="88">MEANING</text>
+  </g>
+  <g stroke="#9ce8cf" stroke-width="2" fill="none"><path d="M230 62h35m-7-7 7 7-7 7M480 62h35m-7-7 7 7-7 7M730 62h35m-7-7 7 7-7 7"/></g>
+</svg>
