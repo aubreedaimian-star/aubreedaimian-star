@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aubree Dai's CASA0017 workshop project and web-development learning path.">
+  <title>Project | Aubree Dai</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Aubree Dai — home">AD<span aria-hidden="true">/</span>CASA</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="primary-navigation">
+      <span>Menu</span><span class="menu-icon" aria-hidden="true"></span>
+    </button>
+    <nav class="site-nav" id="primary-navigation" data-site-nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html" aria-current="page">Project</a>
+      <a href="group-work.html">Group work</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-intro project-intro">
+      <p class="eyebrow">Workshop project</p>
+      <h1>From a static page to a connected application.</h1>
+      <p class="lede">These first three workshops form one learning sequence: publish structured content, explore an API on a map, then listen to real-time messages.</p>
+    </header>
+
+    <section class="project-timeline" aria-label="Project stages">
+      <article>
+        <div class="timeline-meta"><span>Workshop 01</span><span>HTML + CSS</span></div>
+        <h2>Personal site</h2>
+        <p>A responsive set of pages with consistent navigation, deliberate typography, an original illustration, and accessible structure.</p>
+        <p class="project-outcome">Outcome: a clear foundation that can be published as static files.</p>
+      </article>
+      <article>
+        <div class="timeline-meta"><span>Workshop 02</span><span>JavaScript + API</span></div>
+        <h2>Photo discovery map</h2>
+        <p>A Google Maps interface that requests nearby photo data, manages markers, and reveals contextual details on demand.</p>
+        <p class="project-outcome">Outcome: a browser application driven by external spatial data.</p>
+      </article>
+      <article>
+        <div class="timeline-meta"><span>Workshop 03</span><span>MQTT + live UI</span></div>
+        <h2>Message viewer</h2>
+        <p>A live feed that subscribes to the CE Lab topic and turns incoming MQTT messages into timestamped, readable cards.</p>
+        <p class="project-outcome">Outcome: an interface that responds safely to real-time events.</p>
+      </article>
+    </section>
+
+    <aside class="callout" aria-labelledby="review-title">
+      <p class="eyebrow">Definition of done</p>
+      <h2 id="review-title">Understand it, don’t just run it.</h2>
+      <p>Each stage is backed by tests and browser checks, but the most important review is being able to explain the choices in the source.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for CASA0017 at UCL.</p>
+    <p>© <span data-current-year>2026</span> Aubree Dai</p>
+  </footer>
+</body>
+</html>
