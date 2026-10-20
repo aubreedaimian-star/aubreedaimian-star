@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover geotagged photos around London with the CASA0017 data API.">
+  <title>London Photo Atlas | CASA0017 Workshop 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#map-panel">Skip to map information</a>
+  <main class="app-shell">
+    <div id="map-canvas" role="application" aria-label="Interactive map of geotagged photos in London"></div>
+
+    <section class="map-panel" id="map-panel" aria-labelledby="app-title">
+      <p class="eyebrow">CASA0017 · Workshop 02</p>
+      <h1 id="app-title">London Photo Atlas</h1>
+      <p class="intro">Drag the map to discover photographs around a new centre point. Select a marker for its details.</p>
+      <div class="result-count" aria-label="Photo results">
+        <strong id="photoNum">0</strong>
+        <span>photos returned</span>
+      </div>
+      <p id="mapStatus" role="status" aria-live="polite">Preparing the map…</p>
+      <p class="map-hint">Search radius: 50 km · Data from the CASA0017 API</p>
+    </section>
+
+    <noscript>
+      <p class="noscript-message">This interactive map needs JavaScript to load.</p>
+    </noscript>
+  </main>
+
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="js/xdate.js"></script>
+  <script defer src="js/mapStyle.js"></script>
+  <script defer src="js/config.example.js"></script>
+  <script defer src="js/config.local.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>

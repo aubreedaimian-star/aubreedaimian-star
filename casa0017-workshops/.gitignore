@@ -1,0 +1,4 @@
+node_modules/
+coverage/
+*.log
+workshop-2/js/config.local.js
